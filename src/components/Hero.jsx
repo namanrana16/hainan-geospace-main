@@ -24,7 +24,7 @@ const Hero = () => {
           <h1 className="h1 mb-6">
             Explore the Possibilities from above with {` `}
             <span className="inline-block relative">
-              HaiNan Geospasce{" "}
+              HaiNan GeoSpace{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
