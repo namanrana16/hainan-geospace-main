@@ -56,18 +56,6 @@ export const navigation = [{
         title: "Case Studies",
         url: "#roadmap",
     },
-    {
-        id: "4",
-        title: "New account",
-        url: "#signup",
-        onlyMobile: true,
-    },
-    {
-        id: "5",
-        title: "Sign in",
-        url: "#login",
-        onlyMobile: true,
-    },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
