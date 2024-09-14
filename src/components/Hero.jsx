@@ -37,7 +37,7 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
           Access high-quality satellite imagery for your business needs.
           </p>
-          <Button href="/pricing" white>
+          <Button href="#email" white>
             Get started
           </Button>
         </div>

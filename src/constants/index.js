@@ -49,12 +49,17 @@ export const navigation = [{
     {
         id: "2",
         title: "Blog",
-        url: "#how-to-use",
+        url: "/blog",
     },
     {
         id: "3",
         title: "Case Studies",
         url: "#roadmap",
+    },
+    {
+        id: "4",
+        title: "Email",
+        url: "#email",
     },
 ];
 
