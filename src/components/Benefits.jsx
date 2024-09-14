@@ -19,7 +19,7 @@ const Benefits = () => {
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
               style={{
-                backgroundImage: {backgroundImage}, //item.BackgroundUrl
+                backgroundImage: `url(${backgroundImage})`, //item.BackgroundUrl
               }}
               key={item.id}
             >
