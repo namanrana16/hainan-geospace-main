@@ -3,7 +3,7 @@ import Heading from "./Heading";
 import Section from "./Section";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
-import backgroundImage from '../assets/benefits/card-1.svg';
+import backgroundImage from '../assets/card-1.svg';
 
 const Benefits = () => {
   return (
