@@ -100,6 +100,7 @@ export const roadmap = [{
         date: "March 2021",
         status: "done",
         imageUrl: roadmap2,
+        colorful: true,
     },
     {
         id: "2",
@@ -108,6 +109,7 @@ export const roadmap = [{
         date: "March 2018",
         status: "done",
         imageUrl: roadmap3,
+        colorful: true,
     },
     {
         id: "3",
@@ -116,6 +118,7 @@ export const roadmap = [{
         date: "May 2024",
         status: "progress",
         imageUrl: roadmap4,
+        colorful: true,
     },
 ];
 
