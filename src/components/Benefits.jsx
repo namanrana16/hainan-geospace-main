@@ -1,9 +1,9 @@
 import { benefits } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
-import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
+import backgroundImage from '../assets/benefits/card-1.svg';
 
 const Benefits = () => {
   return (
@@ -19,7 +19,7 @@ const Benefits = () => {
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
               style={{
-                backgroundImage: `url(${item.backgroundUrl})`,
+                backgroundImage: `url(${backgroundImage})`, //item.BackgroundUrl
               }}
               key={item.id}
             >
