@@ -2,8 +2,9 @@ import { benefits } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
 import { GradientLight } from "./design/Benefits";
+
 import ClipPath from "../assets/svg/ClipPath";
-import { card1 } from "../assets";
+
 import { Gradient } from "./design/Roadmap";
 
 const Benefits = () => {
@@ -20,7 +21,7 @@ const Benefits = () => {
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] "
               style={{
-                backgroundImage: `url(${card1})`, //item.BackgroundUrl
+                backgroundImage: `url(${item.backgroundUrl})`, //item.BackgroundUrl
               }}
               key={item.id}
             >
