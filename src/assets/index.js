@@ -82,6 +82,7 @@ import card3 from "./card-3.svg";
 import card4 from "./card-4.svg";
 import card5 from "./card-5.svg";
 import card6 from "./card-6.svg";
+import cardone from "../assets/benefits/card-1.svg";
 
 export {
     brainwave,
@@ -160,4 +161,5 @@ export {
     card4,
     card5,
     card6,
+    cardone,
 };

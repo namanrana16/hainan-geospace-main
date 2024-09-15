@@ -42,6 +42,7 @@ import {
     card6,
     benefitCard1,
     benefitCard2,
+    cardone,
 } from "../assets";
 
 export const navigation = [{
@@ -277,7 +278,7 @@ export const benefits = [{
         id: "0",
         title: "Data Acquisition",
         text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-        backgroundUrl: cards[0],
+        backgroundUrl: cardone,
 
     },
     {
