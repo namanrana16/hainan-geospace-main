@@ -77,7 +77,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
-export const cards = [card1, card2, card3, card4, card5, card6];
+
 
 export const brainwaveServices = [
     "Photo generating",
@@ -285,7 +285,7 @@ export const benefits = [{
         id: "1",
         title: "Data Processing and Analysis",
         text: "Turn raw data into actionable insights with our advanced analytics tools.",
-        backgroundUrl: cards[1],
+        backgroundUrl: "/card-2.svg",
 
         light: true,
     },
@@ -293,14 +293,14 @@ export const benefits = [{
         id: "2",
         title: "Environmental Monitoring",
         text: "Track changes in ecosystems and climate with our precise EO solutions",
-        backgroundUrl: cards[2],
+        backgroundUrl: "/card-3.svg",
 
     },
     {
         id: "3",
         title: "Precision Agriculture",
         text: "Optimize crop yields and resource management using satellite data",
-        backgroundUrl: cards[3],
+        backgroundUrl: "/card-4.svg",
 
         light: true,
     },
@@ -308,14 +308,14 @@ export const benefits = [{
         id: "4",
         title: "Disaster Monitoring",
         text: "Respond to emergencies quickly and effectively with real-time satellite imagery",
-        backgroundUrl: cards[4],
+        backgroundUrl: "/card-5.svg",
 
     },
     {
         id: "5",
         title: "Infrastructure Planning and Urban Development",
         text: "Make informed decisions about city growth and development.",
-        backgroundUrl: cards[5],
+        backgroundUrl: "/card-6.svg",
 
     },
 ];
