@@ -34,6 +34,12 @@ import {
     telegram,
     twitter,
     yourlogo,
+    card1,
+    card2,
+    card3,
+    card4,
+    card5,
+    card6,
 } from "../assets";
 
 export const navigation = [{
@@ -268,14 +274,14 @@ export const benefits = [{
         id: "0",
         title: "Data Acquisition",
         text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-        backgroundUrl: "./src/assets/benefits/card-1.svg",
+        backgroundUrl: card1,
 
     },
     {
         id: "1",
         title: "Data Processing and Analysis",
         text: "Turn raw data into actionable insights with our advanced analytics tools.",
-        backgroundUrl: "./src/assets/benefits/card-2.svg",
+        backgroundUrl: card2,
 
         light: true,
     },
@@ -283,14 +289,14 @@ export const benefits = [{
         id: "2",
         title: "Environmental Monitoring",
         text: "Track changes in ecosystems and climate with our precise EO solutions",
-        backgroundUrl: "./src/assets/benefits/card-3.svg",
+        backgroundUrl: card3,
 
     },
     {
         id: "3",
         title: "Precision Agriculture",
         text: "Optimize crop yields and resource management using satellite data",
-        backgroundUrl: "./src/assets/benefits/card-4.svg",
+        backgroundUrl: card4,
 
         light: true,
     },
@@ -298,14 +304,14 @@ export const benefits = [{
         id: "4",
         title: "Disaster Monitoring",
         text: "Respond to emergencies quickly and effectively with real-time satellite imagery",
-        backgroundUrl: "./src/assets/benefits/card-5.svg",
+        backgroundUrl: card5,
 
     },
     {
         id: "5",
         title: "Infrastructure Planning and Urban Development",
         text: "Make informed decisions about city growth and development.",
-        backgroundUrl: "./src/assets/benefits/card-6.svg",
+        backgroundUrl: card6,
 
     },
 ];

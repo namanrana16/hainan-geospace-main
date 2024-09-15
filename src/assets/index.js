@@ -76,6 +76,12 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 import blog1 from "./blog1.png";
 import blog2 from "./blog2.png";
+import card1 from "./card-1.svg";
+import card2 from "./card-2.svg";
+import card3 from "./card-3.svg";
+import card4 from "./card-4.svg";
+import card5 from "./card-5.svg";
+import card6 from "./card-6.svg";
 
 export {
     brainwave,
@@ -148,4 +154,10 @@ export {
     twitter,
     blog1,
     blog2,
+    card1,
+    card2,
+    card3,
+    card4,
+    card5,
+    card6,
 };
