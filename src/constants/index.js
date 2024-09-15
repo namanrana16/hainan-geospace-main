@@ -40,6 +40,8 @@ import {
     card4,
     card5,
     card6,
+    benefitCard1,
+    benefitCard2,
 } from "../assets";
 
 export const navigation = [{
@@ -64,7 +66,7 @@ export const navigation = [{
     },
     {
         id: "4",
-        title: "Email",
+        title: "Contact Us",
         url: "#email",
     },
 ];
@@ -274,14 +276,14 @@ export const benefits = [{
         id: "0",
         title: "Data Acquisition",
         text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-        backgroundUrl: card1,
+        backgroundUrl: benefitCard1,
 
     },
     {
         id: "1",
         title: "Data Processing and Analysis",
         text: "Turn raw data into actionable insights with our advanced analytics tools.",
-        backgroundUrl: card2,
+        backgroundUrl: benefitCard2,
 
         light: true,
     },
