@@ -26,7 +26,7 @@ const Blog = () => {
         <img
           src= {blog1}
           alt="Deforestation in the Amazon"
-          className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]"
+          className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem] md:flex md:justify-center"
         />
         <p>
           Forests are the lungs of our planet, absorbing carbon dioxide and providing oxygen. However,
@@ -113,7 +113,7 @@ const Blog = () => {
       <img
           src= {blog2}
           alt="Deforestation in the Amazon"
-          className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]"
+          className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem] md:flex md:justify-center"
         />
         <p>
           Satellite imagery is also a critical tool in disaster response and environmental crisis
