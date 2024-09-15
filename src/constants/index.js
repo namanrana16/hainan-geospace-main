@@ -278,7 +278,7 @@ export const benefits = [{
         id: "0",
         title: "Data Acquisition",
         text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-        backgroundUrl: cardone,
+        backgroundUrl: "/card-1.svg",
 
     },
     {
