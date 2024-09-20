@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/blog" element={<Blog />} />
         <Route path="/" element={ <App />} />
-        <Route path="/" element={ <Roadmap />} />
+        <Route path="/roadmap" element={ <Roadmap />} />
       </Routes>
     </Router>
   </React.StrictMode>
