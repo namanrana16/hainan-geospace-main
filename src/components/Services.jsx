@@ -38,7 +38,7 @@ const Services = () => {
                   <h2 className="body-1 ml-5">{item.title}</h2>
                 </div>
                 {item.text && (
-                  <ol className="mt-3 text-n-3 list-disc">  
+                  <ol className="mt-3 text-n-3 list-disc text-center">  
                   <h3 className="body-1 ml-5">
                     {item.text.map((text) => (
                       <li key={text.id} className="mb-1">
