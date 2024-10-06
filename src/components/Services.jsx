@@ -8,6 +8,7 @@ import {
   VideoBar,
   VideoChatMessage,
 } from "./design/Services";
+import Button from "./Button"; // Import Button component
 
 
 const Services = () => {
@@ -37,7 +38,7 @@ const Services = () => {
                   <h2 className="body-1 ml-5">{item.title}</h2>
                 </div>
                 {item.text && (
-                  <ol className="mt-3 text-n-3 list-disc">  
+                  <ol className="mt-3 text-n-3 list-disc text-center">  
                   <h3 className="body-1 ml-5">
                     {item.text.map((text) => (
                       <li key={text.id} className="mb-1">
@@ -62,6 +63,14 @@ const Services = () => {
           <Gradient />
         </div>
       </div>
+      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
+  <Button
+ 
+    onClick={() => window.open("/blog", "_blank")}
+  >
+    Read Our Blogs
+  </Button>
+</div>
     </Section>
   );
 };

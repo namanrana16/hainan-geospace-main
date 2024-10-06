@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 
 const Roadmap = () => (
   
-  <Section className="overflow-hidden" id="roadmap">
-    <div className="container md:pb-10">
+  
+    <div className="container md:pb-10 mx-auto px-4 py-8">
       <Heading tag="Ready to get started" title="Case Studies" />
 
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
@@ -56,20 +56,8 @@ const Roadmap = () => (
 
         <Gradient />
       </div>
-      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-  <Button
- 
-    onClick={() => window.open("/blog", "_blank")}
-  >
-    Read Our Blogs
-  </Button>
-</div>
-
-      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button onClick={() => window.open("mailto:contact@hn-geo.com?subject=Your%20Subject&body=Your%20message%20here")}>Customer Support: contact@hn-geo.com </Button>
-      </div>
     </div>
-  </Section>
+  
 );
 
 export default Roadmap;

@@ -90,6 +90,10 @@ const Email = () => {
           </form>
         </div>
       </div>
+
+      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
+        <Button onClick={() => window.open("mailto:contact@hn-geo.com?subject=Your%20Subject&body=Your%20message%20here")}>Customer Support: contact@hn-geo.com </Button>
+      </div>
     </Section>
   );
 };

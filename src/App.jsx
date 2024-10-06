@@ -18,7 +18,6 @@ const App = () => {
         <Benefits />
         <Collaboration />
         <Services />
-        <Roadmap />
         <Email />
         <Footer />
       </div>
