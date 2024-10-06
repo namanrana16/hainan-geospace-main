@@ -2,7 +2,7 @@ import React from "react";
 import { blog1,blog2} from "../assets";
 const Blog = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 text-justify">
     <h1 className="text-3xl md:text-4xl font-bold mb-4">
       How Satellite Imagery is Revolutionizing Environmental Protection
     </h1>
