@@ -35,7 +35,7 @@ const Email = () => {
     <Section className="overflow-hidden" id="email">
       <div className="container relative z-2">
         <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
-        <img
+          <img
             src={smallSphere}
             className="relative z-1"
             width={255}
@@ -49,7 +49,7 @@ const Email = () => {
 
         {/* Email Form */}
         <div className="flex justify-center mt-10">
-          <form ref={form} onSubmit={sendEmail} className="w-full max-w-lg">
+          <form className="w-full max-w-lg">
             <div className="mb-4">
               <label className="block text-gray-700 text-sm font-bold mb-2">
                 Name
@@ -61,7 +61,7 @@ const Email = () => {
                 required
               />
             </div>
-            <div className="mb-4">
+            {/* <div className="mb-4">
               <label className="block text-gray-700 text-sm font-bold mb-2">
                 Email
               </label>
@@ -71,7 +71,7 @@ const Email = () => {
                 name="user_email"
                 required
               />
-            </div>
+            </div> */}
             <div className="mb-4">
               <label className="block text-gray-700 text-sm font-bold mb-2">
                 Message
@@ -83,16 +83,18 @@ const Email = () => {
               />
             </div>
             <div className="flex justify-center">
-                <Button type="submit" white>
-                  Send Mail
-                </Button>
+              <Button onClick={() => window.open("mailto:contact@hn-geo.com?subject=Website Enquiry-{}&body={message}")} white>
+                Send Mail
+              </Button>
             </div>
           </form>
         </div>
       </div>
 
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button onClick={() => window.open("mailto:contact@hn-geo.com?subject=Your%20Subject&body=Your%20message%20here")}>Customer Support: contact@hn-geo.com </Button>
+        <Button onClick={() => window.open("mailto:contact@hn-geo.com?subject=Your%20Subject&body=Your%20message%20here")}>
+          Customer Support: contact@hn-geo.com
+        </Button>
       </div>
     </Section>
   );
