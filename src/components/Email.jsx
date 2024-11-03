@@ -74,9 +74,9 @@ const Email = () => {
                 Name
               </label>
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-white-700 leading-tight focus:outline-none focus:shadow-outline"
                 type="text"
-                name="user_name"
+                name="name"
                 required
                 onChange={handleInputChange}
               />
@@ -97,7 +97,7 @@ const Email = () => {
                 Message
               </label>
               <textarea
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-white-700 leading-tight focus:outline-none focus:shadow-outline"
                 name="message"
                 onChange={handleInputChange}
                 required
