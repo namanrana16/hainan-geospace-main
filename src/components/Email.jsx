@@ -4,10 +4,29 @@ import { smallSphere, stars } from "../assets";
 import emailjs from "emailjs-com";
 import Heading from "./Heading";
 import Button from "./Button";
+import { useState } from "react";
 
 
 const Email = () => {
   const form = useRef();
+
+  const [formData, setFormData] = useState({
+    name: "",
+    message: ""
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value
+    }));
+  };
+  const handleSendMail = () => {
+    const subject = `Website Enquiry - ${formData.name}`;
+    const body = `${formData.message}`;
+    window.open(`mailto:contact@hn-geo.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`);
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -59,6 +78,7 @@ const Email = () => {
                 type="text"
                 name="user_name"
                 required
+                onChange={handleInputChange}
               />
             </div>
             {/* <div className="mb-4">
@@ -79,11 +99,12 @@ const Email = () => {
               <textarea
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 name="message"
+                onChange={handleInputChange}
                 required
               />
             </div>
             <div className="flex justify-center">
-              <Button onClick={() => window.open("mailto:contact@hn-geo.com?subject=Website Enquiry-{}&body={message}")} white>
+              <Button onClick={handleSendMail} white>
                 Send Mail
               </Button>
             </div>
